@@ -7,15 +7,17 @@ import { Icon } from '@iconify/react'
 import speaker from '../../assets/speaker.png'
 import bitmap from '../../assets/bitmap1.png'
 import Secone from '../../components/secone/Secone'
-import Sectwo from '../../components/Sectwo'
+import Banner from '../../components/banner/Banner'
+import Sectwo from '../../components/sectwo/Sectwo'
 
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className=''>
       <Header />
 
-      <section className={style.banner}>
+     {/* <Banner/> */}
+     <section className={style.banner}>
         <div className={style.img}>
           <img src={bit} alt="" />
         </div>
@@ -56,7 +58,6 @@ const Home = () => {
       </section>
 
       <Sectwo/>
-
 
       <Footer />
     </div>

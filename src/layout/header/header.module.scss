@@ -1,8 +1,22 @@
+// .Heade{
+//     background-color: black;
+
+//     .hr{
+//         border:  1px solid #fff;
+//         width: 85%;
+//         margin: 0 auto;
+//         opacity: 0.2;
+
+//     }
+// }
 .Header{
     // border: 2px solid green;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+//    width: 90%;
+//    margin: 0 auto;
+   background-color: black;
+    flex-direction: column;
     color: white;
     align-items: center;
     padding-inline: 2rem;
@@ -21,4 +35,6 @@
         flex-direction: row;
        }
     }
+
+   
 }

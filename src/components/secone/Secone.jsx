@@ -8,7 +8,7 @@ import img2 from '../../assets/img2.png'
 const Secone = () => {
   return (
     <div className='container'>
-      
+    
     <section className={style.one}>
     <div className={style.phone}>
       <img src={img1} alt="" />

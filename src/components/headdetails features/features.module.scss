@@ -1,0 +1,125 @@
+.one {
+    .text {
+        @media (min-width:1000px) {
+            width: 50%;
+        }
+
+    }
+
+    .box {
+        @media (min-width:1000px) {
+            width: 20%;
+        }
+    }
+
+    .box span {
+        color: #D87D4A;
+        padding-right: 10px;
+    }
+
+    .text p,
+    .box p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 15px;
+        opacity: .5;
+    }
+
+    .text h1,
+    .box h1 {
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+
+        @media (min-width:1000px) {
+            font-size: 33px;
+        }
+    }
+
+
+}
+
+.img {
+    width: 90%;
+    margin: 0 auto;
+
+    @media (min-width:768px) {
+        .bit {
+            height: 170px;
+        }
+
+        .bi {
+            height: 370px;
+        }
+    }
+
+    @media (min-width:1000px) {
+        .bit {
+            height: 200px;
+        }
+
+        .bi {
+            height: 420px;
+        }
+    }
+
+}
+
+.img img {
+    width: 100%;
+}
+
+.like {
+    background-color: darkblu;
+
+    .ade {
+        border-radius: 8px;
+        background: #F1F1F1;
+        height: 120px;
+        @media (min-width:768px) {
+            height: 200px;
+        }
+        @media (min-width:1000px) {
+            width: 70%;
+            margin: 0 auto;
+            height: 250px;
+
+        }
+    }
+
+    .ade img {
+        width: 25%;
+        margin-top: 10px;
+
+        @media (min-width:768px) {
+            width: 70px;
+           margin-top: 40px;
+        }
+        @media (min-width:1000px) {
+            width: 120px;
+        }
+    }
+
+    .you h2 {
+        padding: 10px 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .you button {
+        border: none;
+        background: #D87D4A;
+        color: white;
+    }
+    .you{
+        @media (min-width:768px) {
+            width: 30%;
+        }
+    }
+
+}

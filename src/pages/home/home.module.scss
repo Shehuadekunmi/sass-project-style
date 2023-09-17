@@ -4,7 +4,7 @@
     color: white;
     position: relative;
 
-    @media (min-width:1440px) {
+    @media (min-width:900px) {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -12,10 +12,11 @@
     .img {
         width: 100%;
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             width: 50%;
         }
     }
+    
 
     .img img {
         width: 100%;
@@ -35,7 +36,7 @@
             width: 40%;
         }
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             width: 50%;
             left: 70%;
             text-align: start;
@@ -81,9 +82,9 @@
     .text h3 {
         opacity: .4;
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             text-align: start;
-            padding-left: 10rem;
+            padding-left: 4rem;
 
         }
 
@@ -109,6 +110,8 @@
 
 
 
+
+
 .two {
     text-align: center;
     color: white;
@@ -118,7 +121,7 @@
     margin: 0 auto;
     padding: 0 auto;
 
-    @media (min-width:1440px) {
+    @media (min-width:900px) {
         display: flex;
         height: 400px;
         justify-content: space-around;
@@ -135,7 +138,6 @@
 
             @media (min-width:1440px) {
                 width: 50%;
-                margin-top: 4rem;
                 margin-left: 11.5rem;
             }
         }
@@ -242,7 +244,6 @@
     text-align: center;
     @media (min-width:768px) {
         display: flex;
-        
      }
 
     .img,
@@ -264,7 +265,7 @@
 
         @media (min-width:768px) {
             width: 40%;
-            height: 230px;
+            height: 300px;
             padding-top: 80px;
         }
     }

@@ -8,6 +8,8 @@ const Header = () => {
     timer > 0 &&  setTimeout(() =>setTimer(timer - 1), 1000)
   }, [timer])
   return (
+
+    <div className={style.Heade}>
     <nav className={style.Header}>
       {/* <div>countdown {timer === 0? 'stop' : timer}</div> */}
         <div className={style.logo}>
@@ -20,10 +22,13 @@ const Header = () => {
             <li>Earphone</li>
         </ul>
 
+
         <div className={style.icon}>
             <Icon icon={`ion:cart-outline`}/>
         </div>
     </nav>
+    <hr className={style.hr} />
+    </div>
   )
 }
 

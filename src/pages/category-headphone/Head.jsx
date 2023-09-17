@@ -5,8 +5,8 @@ import style from '../category-headphone/head.module.scss'
 import head from '../../assets/head.png'
 import img1 from '../../assets/img1.png'
 import whi from '../../assets/whi.png'
-import Sectwo from '../../components/Sectwo'
 import Secone from '../../components/secone/Secone'
+import Sectwo from '../../components/sectwo/Sectwo'
 
 const Head = () => {
     return (
@@ -16,7 +16,7 @@ const Head = () => {
                 <div className={`${style.img}`}>
                     <img src={head} alt="" />
                 </div>
-
+                
                 <div className={`${style.text} text-center my-4`}>
                     <h6 className={style.pp} >NEW PRODUCT</h6>
                     <h2>XX99 Mark II
@@ -59,7 +59,8 @@ const Head = () => {
             
             <Secone/>
 
-            <Sectwo/>
+        
+        <Sectwo/>
 
 
             <Footer />
