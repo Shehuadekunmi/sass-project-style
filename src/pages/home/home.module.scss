@@ -44,7 +44,7 @@
     }
 
     .text h2 {
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             width: 50%;
             paddin: 0 auto;
             padding: 30px 0;
@@ -62,7 +62,7 @@
         font-weight: 400;
         padding: 0 10px;
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             width: 70%;
             font-size: 2rem;
             margin: 0 auto;
@@ -71,7 +71,7 @@
     }
 
     .text p {
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             text-align: start;
             font-size: 1rem;
             width: 344px;
@@ -98,7 +98,7 @@
         color: white;
         border: none;
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             font-size: 1rem;
             margin: 20px auto;
             margin-left: 11.5rem;
@@ -126,6 +126,7 @@
         height: 400px;
         justify-content: space-around;
         margin: 5rem auto;
+        width: 80%;
 
     }
 
@@ -136,9 +137,9 @@
             width: 30%;
             margin-top: 30px;
 
-            @media (min-width:1440px) {
+            @media (min-width:900px) {
                 width: 50%;
-                margin-left: 11.5rem;
+              margin-top: 4rem;
             }
         }
     }
@@ -148,7 +149,7 @@
             width: 50%;
             margin: 0 auto;
 
-            @media (min-width:1440px) {
+            @media (min-width:900px) {
                 text-align: start;
                 margin: 40px 0;
                 width: 40%;
@@ -157,13 +158,13 @@
     }
 
     .up h1 {
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             font-size: 56px;
         }
     }
 
     .up p {
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             font-size: 1rem;
             margin: 20px auto;
             margin-left: 0rem;
@@ -194,9 +195,10 @@
     @media (min-width:768px) {
         height: 200px;
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             height: 300px;
             margin: 8rem auto;
+            width: 80%;
         }
     }
 
@@ -214,7 +216,7 @@
             padding: 40px 0 0 40px;
         }
 
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             font-size: 28px;
             padding-top: 5rem;
             margin-left: 9.2rem;
@@ -232,7 +234,7 @@
         @media (min-width:768px) {
             margin-left: 40px;
         }
-        @media (min-width:1440px) {
+        @media (min-width:900px) {
             margin: 20px auto;
             margin-left: 11.5rem;
             height: 48px;
@@ -245,7 +247,10 @@
     @media (min-width:768px) {
         display: flex;
      }
-
+@media (min-width:900px) {
+    width: 90%;
+    margin: 0 auto;
+}
     .img,
     .yx1 {
         width: 90%;
